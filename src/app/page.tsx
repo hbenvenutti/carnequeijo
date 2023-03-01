@@ -1,10 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+import styles from './page.module.css';
 
-export default function Home() {
+import type { ReactElement } from 'react';
+
+// * ---------------------------------------------------------------------- * //
+
+const inter = Inter({ subsets: [ 'latin' ] });
+
+// * ---------------------------------------------------------------------- * //
+
+function Home(): ReactElement {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -87,5 +94,9 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
+
+// * ---------------------------------------------------------------------- * //
+
+export default Home;
