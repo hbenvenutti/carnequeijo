@@ -1,5 +1,5 @@
 {
-  "name": "carnequeijo",
+  "name": "carne-e-queijo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,13 @@
     "start": "next start",
     "lint": "next lint"
   },
+
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix"
+    ]
+  },
+
   "dependencies": {
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
@@ -18,5 +25,18 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
