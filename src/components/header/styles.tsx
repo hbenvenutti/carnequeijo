@@ -1,18 +1,16 @@
-import { HeaderStyles } from './styles';
-
+/* eslint-disable react/no-unknown-property */
 import type { ReactElement } from 'react';
 
 // * ---------------------------------------------------------------------- * //
 
-function Header(): ReactElement {
+function HeaderStyles(): ReactElement {
   return (
-    <>
-      <HeaderStyles />
-      <header>Carne e Queijo</header>
-    </>
+    <style jsx>
+      {``}
+    </style>
   );
 }
 
 // * ---------------------------------------------------------------------- * //
 
-export { Header };
+export { HeaderStyles };
