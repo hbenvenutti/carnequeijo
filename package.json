@@ -8,13 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
-
   "lint-staged": {
     "*.ts": [
       "eslint --fix"
     ]
   },
-
   "dependencies": {
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
@@ -29,8 +27,12 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2"
   },
