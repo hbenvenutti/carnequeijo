@@ -61,10 +61,14 @@
       }],
       "import/newline-after-import": "error",
 
-      // *** Regular ESLINT
+      // *** --- Regular ESLINT ----------------------------------------- *** //
       "indent": ["error", 2],
       "linebreak-style": ["error","unix"],
-      "quotes": ["error", "single", {"allowTemplateLiterals": true, "avoidEscape": true}],
+
+      "quotes": ["error", "single", {
+        "allowTemplateLiterals": true, 
+        "avoidEscape": true
+        }],
 
       "arrow-parens": ["error", "as-needed"],
       "arrow-spacing": ["error", {"before": true, "after": true}],
@@ -91,8 +95,6 @@
       }],
 
       "object-curly-spacing": ["error", "always"],
-    //   "object-curly-newline": ["error", {"minProperties": 3}],
-
 
       "rest-spread-spacing": ["error", "never"],
 
@@ -113,7 +115,7 @@
       "wrap-regex": 2,
       
       // *** --- REACT -------------------------------------------------- *** //
-      "react/no-unknown-property": ["error", { "ignore": "jsx" }],
+      "react/no-unknown-property": ["error", { "ignore": ["jsx"] }],
       "react/react-in-jsx-scope": 0,
       "react/no-array-index-key": "error",
       "react/jsx-tag-spacing": ["error", {
