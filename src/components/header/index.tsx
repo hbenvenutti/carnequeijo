@@ -1,7 +1,5 @@
-'use client'
-
 import type { ReactElement } from 'react';
-import styles from 'src/components/header/header.module.css';
+import styles from './header.module.css';
 
 // * ---------------------------------------------------------------------- * //
 
