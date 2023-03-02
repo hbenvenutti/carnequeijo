@@ -4,7 +4,7 @@
       "es2021": true
   },
   "extends": [
-      // "next/core-web-vitals",
+      "next/core-web-vitals",
       "eslint:recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -113,7 +113,7 @@
       "wrap-regex": 2,
       
       // *** --- REACT -------------------------------------------------- *** //
-
+      "react/no-unknown-property": ["error", { "ignore": "jsx" }],
       "react/react-in-jsx-scope": 0,
       "react/no-array-index-key": "error",
       "react/jsx-tag-spacing": ["error", {
