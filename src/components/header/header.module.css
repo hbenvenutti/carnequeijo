@@ -3,3 +3,11 @@
   width: 100%;
   padding: 1rem 20rem;
 }
+
+/**** --- Mobile ------------------------------------------------------- *** */
+
+@media (max-width: 700px) {
+  .header {
+    padding: 1rem;
+  }
+}
