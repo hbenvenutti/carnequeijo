@@ -1,7 +1,11 @@
 :root {
-  --primary: #F29F05;
+  /* --primary: #F29F05; */
+  
+  --primary: #FBB93F;
   --secondary: #000;
   --tertiary: #FFF;
+
+  --text: #000;
 }
 
 * {
@@ -10,16 +14,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--tertiary);
+  color: var(--text);
+}
+
 button, a {
   cursor: pointer;
 }
 
 a {
+  color: var(--text);
   text-decoration: none;
 }
 
 
-/**** --- Mobile ------------------------------------------------------- *** */
+/**** --- Mobile -------------------------------------------------------- *** */
 
 @media (max-width: 1080px) {
   html {
