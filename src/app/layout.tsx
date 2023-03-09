@@ -2,6 +2,7 @@ import type { ReactElement } from 'react';
 import type { LayoutProps } from 'TYPES/next';
 
 import { Header } from 'COMPONENTS/header/header';
+import { roboto } from 'FONTS/roboto';
 
 import 'STYLES/globals.css';
 
@@ -18,10 +19,11 @@ export const metadata = {
 // -------------------------------------------------------------------------- //
 
 function RootLayout({ children }: LayoutProps): ReactElement {
+  // *** --- TSX -------------------------------------------------------- *** //
   return (
     <html lang="pt-br">
 
-      <body>
+      <body className={roboto.className}>
         <Header />
         {children}
       </body>
