@@ -5,13 +5,14 @@ import styles from './history.module.css';
 import type { ReactElement } from 'react';
 
 import image from 'ASSETS/images/about.jpg';
+import { stardos } from 'FONTS/stardos';
 
 // * ---------------------------------------------------------------------- * //
 
 function History(): ReactElement {
   return (
     <main className={styles.main}>
-      <h1>Nossa Historia</h1>
+      <h1 className={stardos.className}>Nossa História</h1>
       <section className={styles.section}>
 
         <Image className={styles.img} alt='' src={image} />
@@ -53,26 +54,26 @@ function History(): ReactElement {
             Contratamos um motoboy e entramos para o iFood 🛵. 
           </p>
         
-          ali 
-
-          naquela garagem vivenciamos os momentos mais exaustivos e estressantes 
-          das nossas vidas. o negócio estava crescendo, ganhando um pouco mais de 
-          visibilidade e a gente já não dava mais conta. precisávamos mudar de novo. 
-          fomos pra um espacinho em frente ao condomínio condado de castella, 
-          contratamos nossa primeira funcionária e lá ficamos por um ano trabalhando muito. 
-          depois desse um ano, mudamos pra onde hoje é o nosso ponto físico, 
-          após alguns longos meses fechados reformando o local. usamos esse tempo 
-          pra estudo e remodelação do negócio. com isso, mudamos o cardápio, 
-          o pão, a equipe, os equipamentos, os fornecedores e até as embalagens. 
-          na verdade muita coisa mudou desde que começamos, não só no negócio mas 
-          principalmente em nós. como já dissemos por aqui, o CQ nos fez sermos melhores, 
-          e a única coisa que não muda é a nossa incessante vontade de fazer e 
-          trazer sempre o melhor pra vocês! seguimos por aqui com essa nossa missão, 
-          gratos por cada pedido e confiantes de que esse é só o começo, ainda tem muito mais 💛🔥
         </article>
-
-
       </section>
+
+      ali 
+
+      naquela garagem vivenciamos os momentos mais exaustivos e estressantes 
+      das nossas vidas. o negócio estava crescendo, ganhando um pouco mais de 
+      visibilidade e a gente já não dava mais conta. precisávamos mudar de novo. 
+      fomos pra um espacinho em frente ao condomínio condado de castella, 
+      contratamos nossa primeira funcionária e lá ficamos por um ano trabalhando muito. 
+      depois desse um ano, mudamos pra onde hoje é o nosso ponto físico, 
+      após alguns longos meses fechados reformando o local. usamos esse tempo 
+      pra estudo e remodelação do negócio. com isso, mudamos o cardápio, 
+      o pão, a equipe, os equipamentos, os fornecedores e até as embalagens. 
+      na verdade muita coisa mudou desde que começamos, não só no negócio mas 
+      principalmente em nós. como já dissemos por aqui, o CQ nos fez sermos melhores, 
+      e a única coisa que não muda é a nossa incessante vontade de fazer e 
+      trazer sempre o melhor pra vocês! seguimos por aqui com essa nossa missão, 
+      gratos por cada pedido e confiantes de que esse é só o começo, ainda tem muito mais 💛🔥
+
       <article className={styles.article}>
         <h2>💛 Agradecimentos</h2>
 
