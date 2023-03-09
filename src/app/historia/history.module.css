@@ -1,0 +1,59 @@
+main.main {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 2rem 20rem;
+  
+  gap: 2.5rem;
+}
+
+section.section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+article.article a {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+article.article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding: 0 10rem;
+
+  text-align: justify;
+  line-height: 1.5;
+}
+
+
+article.section {
+  width: 60%;
+  padding: 0;
+}
+
+
+img.img {
+  width: 40%;
+  height: auto;
+
+  border-radius: 3.125rem 0 3.125rem 0;
+}
+
+/**** --- Mobile --------------------------------------------------------  ****/
+@media(max-width: 700px) {
+  main.main {
+    margin: 0 auto;
+    padding: 2rem .5rem;
+    /* align-items: center; */
+  }
+
+  img.img {
+  }
+
+}

@@ -3,6 +3,10 @@
 # vscode
 /.vscode
 
+# app
+
+*/assets/images
+
 # dependencies
 /node_modules
 /.pnp
