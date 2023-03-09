@@ -22,6 +22,9 @@ function RootLayout({ children }: LayoutProps): ReactElement {
   // *** --- TSX -------------------------------------------------------- *** //
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="./icon.png" />
+      </head>
 
       <body className={roboto.className}>
         <Header />
