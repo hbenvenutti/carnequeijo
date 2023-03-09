@@ -25,7 +25,10 @@ function Header(): ReactElement {
         href="/" 
         className={`${styles.logo}`}
       >
-        <Logo />
+        <figure>
+          <Logo />
+        </figure>
+
       </Link>
 
       <nav className={styles.nav}>
@@ -39,7 +42,6 @@ function Header(): ReactElement {
 
               <div className={styles.link} key={link.title}>
                 <FaHamburger className={className} />
-                {/* {className === styles.active && <FaHamburger />} */}
                 
                 <Link 
                   key={link.title}
