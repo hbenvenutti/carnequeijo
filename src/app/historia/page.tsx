@@ -15,7 +15,12 @@ function History(): ReactElement {
       <h1 className={stardos.className}>Nossa História</h1>
       <section className={styles.section}>
 
-        <Image className={styles.img} alt='' src={image} />
+        <Image 
+          className={styles.img} 
+          alt='' 
+          src={image} 
+          placeholder="blur"
+        />
 
         <article className={`${styles.article} ${styles.section}`}>
           <h2>A origem de tudo</h2>
@@ -24,7 +29,8 @@ function History(): ReactElement {
           
             <a 
               href="https://www.instagram.com/burgercarnequeijo/"
-              target='_blank' rel="noreferrer"
+              target='_blank' 
+              rel="noreferrer"
             >
               {' @burgercarnequeijo '} 
             </a>
@@ -40,7 +46,8 @@ function History(): ReactElement {
             Então começamos a fazer hambúrguer na cozinha de casa, vendendo para 
             os vizinhos do condomínio. 
           
-            Sem estrutura e sem experiência nenhuma, mas com muito apoio e força de vontade. 
+            Sem estrutura e sem experiência nenhuma, mas com muito apoio e força
+            de vontade. 
           </p>
         
 
@@ -72,7 +79,8 @@ function History(): ReactElement {
       principalmente em nós. como já dissemos por aqui, o CQ nos fez sermos melhores, 
       e a única coisa que não muda é a nossa incessante vontade de fazer e 
       trazer sempre o melhor pra vocês! seguimos por aqui com essa nossa missão, 
-      gratos por cada pedido e confiantes de que esse é só o começo, ainda tem muito mais 💛🔥
+      gratos por cada pedido e confiantes de que esse é só o começo, 
+      ainda tem muito mais 💛🔥
 
       <article className={styles.article}>
         <h2>💛 Agradecimentos</h2>
