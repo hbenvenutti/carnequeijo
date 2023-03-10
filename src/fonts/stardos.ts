@@ -1,4 +1,4 @@
-import { Stardos_Stencil } from '@next/font/google';
+import { Stardos_Stencil } from 'next/font/google';
 
 // * ---------------------------------------------------------------------- * //
 
