@@ -4,7 +4,7 @@ import styles from './history.module.css';
 
 import type { ReactElement } from 'react';
 
-import image from 'ASSETS/images/about.jpg';
+import image from 'ASSETS/images/about.webp';
 import { stardos } from 'FONTS/stardos';
 
 // * ---------------------------------------------------------------------- * //
@@ -64,7 +64,7 @@ function History(): ReactElement {
         </article>
       </section>
 
-      ali 
+      {/* ali 
 
       naquela garagem vivenciamos os momentos mais exaustivos e estressantes 
       das nossas vidas. o negócio estava crescendo, ganhando um pouco mais de 
@@ -80,7 +80,7 @@ function History(): ReactElement {
       e a única coisa que não muda é a nossa incessante vontade de fazer e 
       trazer sempre o melhor pra vocês! seguimos por aqui com essa nossa missão, 
       gratos por cada pedido e confiantes de que esse é só o começo, 
-      ainda tem muito mais 💛🔥
+      ainda tem muito mais 💛🔥 */}
 
       <article className={styles.article}>
         <h2>💛 Agradecimentos</h2>
