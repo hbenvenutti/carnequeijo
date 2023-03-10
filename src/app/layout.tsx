@@ -3,6 +3,7 @@ import type { LayoutProps } from 'TYPES/next';
 
 import { Header } from 'COMPONENTS/header/header';
 import { roboto } from 'FONTS/roboto';
+import { Footer } from 'COMPONENTS/footer/footer';
 
 import 'STYLES/globals.css';
 
@@ -29,6 +30,7 @@ function RootLayout({ children }: LayoutProps): ReactElement {
       <body className={roboto.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
