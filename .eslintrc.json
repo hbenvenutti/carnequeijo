@@ -32,9 +32,13 @@
   "plugins": [
       "@typescript-eslint",
       "react",
-      "import"
+      "import",
+      "prettier"
   ],
   "rules": {
+      // *** --- Prettier ----------------------------------------------- *** //
+      "prettier/prettier": ["error", {"usePrettierrc": true}],
+
       // *** --- NEXT --------------------------------------------------- *** //
       "@next/next/no-html-link-for-pages": [0],
 
