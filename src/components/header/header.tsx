@@ -1,10 +1,6 @@
-'use client';
-
 import { FaHamburger } from 'react-icons/fa';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
-import styles from './header.module.css';
+import styles from './header.module.scss';
 import { links } from './links';
 
 import type { ReactElement } from 'react';
@@ -15,49 +11,37 @@ import { stardos } from 'FONTS/stardos';
 // * ---------------------------------------------------------------------- * //
 
 function Header(): ReactElement {
-  // *** --- Contexts --------------------------------------------------- *** //
-  const pathname = usePathname();
-
   // *** --- TSX -------------------------------------------------------- *** //
   return (
     <header className={`${styles.header} ${stardos.className}`}>
-      <Link 
-        href="/" 
+      <a
+        href="#hero"
         className={`${styles.logo}`}
       >
         <figure>
           <Logo />
         </figure>
-
-      </Link>
+      </a>
 
       <nav className={styles.nav}>
-        {
-          links.map(link => {
-            const className = pathname === link.path 
-              ? styles.active 
-              : styles.inactive;
-            
-            return (
+        {links.map(link => {
+          return (
+            <div
+              className={styles.link}
+              key={link.title}
+            >
+              <FaHamburger />
 
-              <div className={styles.link} key={link.title}>
-                <FaHamburger className={className} />
-                
-                <Link 
-                  key={link.title}
-                  href={link.path}
-                  className={className}
-                > 
-                  {link.title} 
-                </Link>
-              </div>
-            );
-          }
-          )
-        }
+              <a
+                key={link.title}
+                href={link.path}
+              >
+                {link.title}
+              </a>
+            </div>
+          );
+        })}
       </nav>
-      
-      <a className={styles.callToAction} href="">Faça o seu pedido</a>
     </header>
   );
 }

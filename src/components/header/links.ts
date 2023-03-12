@@ -5,13 +5,16 @@ const links = [
   },
   {
     title: 'Localização',
-    path: '/location'
+    path: '/#location'
   },
   {
     title: 'Nossa História',
     path: '/historia'
+  },
+  {
+    title: 'Redes Sociais',
+    path: '#instagram'
   }
-
 ] as const;
 
 // * ---------------------------------------------------------------------- * //
