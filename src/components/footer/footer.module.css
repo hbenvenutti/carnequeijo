@@ -1,24 +1,66 @@
 .footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
 
   width: 100%;
-  /* height: 10rem; */
   padding: 5rem 20rem;
 
   background-color: var(--secondary);
   color: var(--tertiary);
 }
 
-div.map {
+section.section {
+  display: flex;
+  gap: 2rem;
+}
+
+div.sectionItem {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
+  width: 25%;
   align-items: left;
 
   color: var(--tertiary);
 }
 
-.map a {
+.sectionItem strong {
+  font-size: 1.6rem;
+}
+
+.sectionItem a {
+  font-size: 1.4rem;
+}
+
+.sectionItem p {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+
+  gap: 0.5rem;
+}
+
+a.whats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.whats svg {
+  width: 2rem;
+  height: auto;
+}
+
+div.logo svg {
+  /* width: 10rem; */
+  margin-top: -1.6rem;
+  width: 100%;
+  height: auto;
+}
+
+.sectionItem a {
   color: var(--tertiary);
 }

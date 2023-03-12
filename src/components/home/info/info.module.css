@@ -14,7 +14,8 @@ div.sectionItem {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-
+  
+  width: 33%;
   font-size: 1.5rem;
 }
 

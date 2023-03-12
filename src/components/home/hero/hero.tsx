@@ -1,11 +1,6 @@
-import Image from 'next/image';
-
 import styles from './hero.module.css';
 
 import type { ReactElement } from 'react';
-
-import hamburguer from 'ASSETS/images/hamburger.webp';
-import { Logo } from 'ASSETS/logo';
 
 // * ---------------------------------------------------------------------- * //
 
@@ -21,15 +16,8 @@ function Hero(): ReactElement {
           className={styles.hero}
         >
           Prezamos pela qualidade e pelo bom atendimento.
-        </p>
-  
-        <Image
-          className={styles.hamburger}
-          alt='' 
-          src={hamburguer}
-        />
+        </p>  
       </div>
-      <Logo />
     </section>
 
   ); 
