@@ -31,7 +31,7 @@ function Footer(): ReactElement {
             >
               <BsWhatsapp /> 
             </a>
-            (51) 99999-9999
+            (51) 98597-0427
           </p>
           
           <strong>Siga nossas redes</strong>
@@ -63,7 +63,7 @@ function Footer(): ReactElement {
       <section>
         <p>
           Razão Social: Carne e Queijo | CNPJ: 00.000.000/0001-00 |
-          Telefone: (51) 99999-9999 | Endereço: Rua Luiz Carlos de Azevedo, 83, 
+          Telefone: (51) 98597-0427 | Endereço: Rua Luiz Carlos de Azevedo, 83, 
           Centro, Viamão, RS, Brazil
         </p>
       </section>

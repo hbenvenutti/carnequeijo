@@ -1,11 +1,11 @@
-
 import { GiDeliveryDrone } from 'react-icons/gi';
-import { SiIfood } from 'react-icons/si';
 import { BsClock } from 'react-icons/bs';
 
 import styles from './info.module.css';
 
 import type { ReactElement } from 'react';
+
+import { IfoodLogo } from 'ASSETS/ifood-logo';
 
 // * ---------------------------------------------------------------------- * //
 
@@ -14,20 +14,20 @@ function Info():ReactElement {
     <section className={styles.info}>
       <div className={styles.sectionItem}>
         <GiDeliveryDrone className={styles.svg} />
-        <strong>Delivery</strong>
-        <p>Tele-entrega para toda Viamão.</p>
+        <strong>Tele-entrega</strong>
+        <p>Atendemos em Viamão.</p>
       </div>
 
       <div className={styles.sectionItem}>
         <BsClock className={styles.svg} />
         <strong>Horário de Atendimento</strong>
-        <p>Quarta a Domingo, das 19h às 22:30 </p>
+        <p>Quarta a Domingo, das 19h às 22:30. </p>
       </div>
 
       <div className={styles.sectionItem}>
-        <SiIfood className={`${styles.svg} ${styles.ifood}`} />
+        <IfoodLogo className={`${styles.svg} ${styles.ifood}`} />
         <strong>Aplicativos</strong>
-        <p>Estamos no Ifood!</p>
+        <p>Peça pelos apps parceiros.</p>
       </div>
     </section>
   );

@@ -9,27 +9,28 @@ import { stardos } from 'FONTS/stardos';
 function Hero(): ReactElement {
   return (
     <section className={styles.hero}>
-      <div className={styles.hero}>
-        <h1 className={styles.title}>
-          O melhor burger de Viamão
-        </h1>
+      <div className={styles.movingWrapper}>
 
-        <p 
-          className={styles.hero}
+        <div className={styles.hero}>
+          <h1 className={styles.title}>
+            O melhor burger de Viamão
+          </h1>
+
+          <p 
+            className={styles.hero}
+          >
+            Delivery de burgers e porções.
+          </p> 
+      
+        </div>
+
+        <a 
+          className={`${styles.cta} ${stardos.className}`} 
+          href=""
         >
-          Prezamos pela qualidade e pelo bom atendimento.
-        </p> 
-      
+          Peça já o seu
+        </a>
       </div>
-      
-      <a 
-        className={`${styles.cta} ${stardos.className}`} 
-        href=""
-      >
-        Peça já o seu
-      </a>
-      
-
 
     </section>
 

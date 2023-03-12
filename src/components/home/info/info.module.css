@@ -25,6 +25,8 @@ div.sectionItem {
 }
 
 .ifood {
+  height: 4rem;
+  width: auto;
   color: var(--ifood);
 }
 
