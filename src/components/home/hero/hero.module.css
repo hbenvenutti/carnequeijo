@@ -2,12 +2,11 @@
 
 section.hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: baseline;
   gap: 3rem;
 
-  padding: 10rem;
+  padding: 10rem 15rem;
 
   width: 100%;
   height: 69vh;
@@ -29,4 +28,33 @@ div.hero {
 
 p.hero {
   font-size: 1.5rem;
+}
+
+/**** --- CTA ----------------------------------------------------------- *** */
+
+a.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  width: 25%;
+  height: 3.5rem;
+
+  padding: 0.5rem;
+  border-radius: 50px;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  transition: background-color 0.2s;
+  transition: font-size 0.35s;
+}
+
+a.cta:hover {
+  font-size: 1.6rem;
+  background-color: var(--secondary-hover);
+  transition: background-color 0.2s;
+  transition: font-size .35s;
 }

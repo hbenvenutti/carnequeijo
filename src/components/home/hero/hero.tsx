@@ -2,6 +2,8 @@ import styles from './hero.module.css';
 
 import type { ReactElement } from 'react';
 
+import { stardos } from 'FONTS/stardos';
+
 // * ---------------------------------------------------------------------- * //
 
 function Hero(): ReactElement {
@@ -9,15 +11,26 @@ function Hero(): ReactElement {
     <section className={styles.hero}>
       <div className={styles.hero}>
         <h1 className={styles.title}>
-          O melhor hamburguer de Viamão
+          O melhor burger de Viamão
         </h1>
 
         <p 
           className={styles.hero}
         >
           Prezamos pela qualidade e pelo bom atendimento.
-        </p>  
+        </p> 
+      
       </div>
+      
+      <a 
+        className={`${styles.cta} ${stardos.className}`} 
+        href=""
+      >
+        Peça já o seu
+      </a>
+      
+
+
     </section>
 
   ); 

@@ -36,7 +36,10 @@ function Footer(): ReactElement {
           
           <strong>Siga nossas redes</strong>
           <p>
-            <a href=""><BsInstagram /></a>
+            <a href="https://www.instagram.com/burgercarnequeijo/">
+              <BsInstagram />
+            </a>
+            
             <a href=""><BsFacebook /></a>
           </p>
 
