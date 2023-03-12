@@ -12,7 +12,6 @@ function Footer(): ReactElement {
   return (
     <footer className={styles.footer}>
       <section className={styles.section}>
-
         <div className={styles.sectionItem}>
           <strong>Mapa do Site</strong>
           <a href="">Cardápio</a>
@@ -23,26 +22,27 @@ function Footer(): ReactElement {
         <div className={styles.sectionItem}>
           <strong>Contato</strong>
           <p>
-            <a 
+            <a
               className={styles.whats}
-              target='_blank'
-              href="https://wa.me/555185970427" 
+              target="_blank"
+              href="https://wa.me/555185970427"
               rel="noreferrer"
             >
-              <BsWhatsapp /> 
+              <BsWhatsapp />
             </a>
             (51) 98597-0427
           </p>
-          
+
           <strong>Siga nossas redes</strong>
           <p>
             <a href="https://www.instagram.com/burgercarnequeijo/">
               <BsInstagram />
             </a>
-            
-            <a href=""><BsFacebook /></a>
-          </p>
 
+            <a href="">
+              <BsFacebook />
+            </a>
+          </p>
         </div>
 
         <div className={styles.sectionItem}>
@@ -59,12 +59,12 @@ function Footer(): ReactElement {
           <Logo />
         </div>
       </section>
-      
+
       <section>
         <p>
-          Razão Social: Carne e Queijo | CNPJ: 00.000.000/0001-00 |
-          Telefone: (51) 98597-0427 | Endereço: Rua Luiz Carlos de Azevedo, 83, 
-          Centro, Viamão, RS, Brazil
+          Razão Social: Carne e Queijo | CNPJ: 00.000.000/0001-00 | Telefone:
+          (51) 98597-0427 | Endereço: Rua Luiz Carlos de Azevedo, 83, Centro,
+          Viamão, RS, Brasil
         </p>
       </section>
     </footer>
