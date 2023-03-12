@@ -10,8 +10,14 @@ import type { ReactElement } from 'react';
 
 function InstaFeed(): ReactElement {
   return (
-    <section className={styles.feed}>
-      <FaInstagram width="150px" height="150px" />
+    <section
+      id="instagram"
+      className={styles.feed}
+    >
+      <FaInstagram
+        width="150px"
+        height="150px"
+      />
       <h2>Acompanhe as nossas Redes Sociais</h2>
 
       <p>Nessa seção haverá uma galeria de posts do instagram</p>
@@ -22,4 +28,3 @@ function InstaFeed(): ReactElement {
 // * ---------------------------------------------------------------------- * //
 
 export { InstaFeed };
-
