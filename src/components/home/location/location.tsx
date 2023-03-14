@@ -21,8 +21,15 @@ function Location(): ReactElement {
       </h2>
 
       <div className={styles.card}>
-        <strong>Rua Luiz Carlos de Azevedo, 83</strong>
-        <p>Centro, Viamão-RS</p>
+        <div className={styles.text}>
+          <strong>Rua Luiz Carlos de Azevedo, 83</strong>
+          <p>Centro, Viamão-RS</p>
+        </div>
+
+        <div className={styles.text}>
+          <strong>Quarta a Domingo</strong>
+          <p>19h às 22:30</p>
+        </div>
         <GoogleMap />
       </div>
     </section>

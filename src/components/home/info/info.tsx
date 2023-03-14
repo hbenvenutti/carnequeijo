@@ -1,7 +1,7 @@
 import { GiDeliveryDrone } from 'react-icons/gi';
 import { BsClock } from 'react-icons/bs';
 
-import styles from './info.module.css';
+import styles from './info.module.scss';
 
 import type { ReactElement } from 'react';
 
@@ -9,7 +9,7 @@ import { IfoodLogo } from 'ASSETS/ifood-logo';
 
 // * ---------------------------------------------------------------------- * //
 
-function Info():ReactElement {
+function Info(): ReactElement {
   return (
     <section className={styles.info}>
       <div className={styles.sectionItem}>
