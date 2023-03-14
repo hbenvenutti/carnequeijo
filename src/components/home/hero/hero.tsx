@@ -8,7 +8,10 @@ import { stardos } from 'FONTS/stardos';
 
 function Hero(): ReactElement {
   return (
-    <section className={styles.hero}>
+    <section
+      id="hero"
+      className={styles.hero}
+    >
       <div className={styles.heroWrapper}>
         <div className={styles.text}>
           <h1>O melhor burger de Viamão</h1>
