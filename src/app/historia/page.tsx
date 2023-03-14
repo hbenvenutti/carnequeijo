@@ -14,11 +14,10 @@ function History(): ReactElement {
     <main className={styles.main}>
       <h1 className={stardos.className}>Nossa História</h1>
       <section className={styles.section}>
-
-        <Image 
-          className={styles.img} 
-          alt='' 
-          src={image} 
+        <Image
+          className={styles.img}
+          alt=""
+          src={image}
           placeholder="blur"
         />
 
@@ -26,41 +25,31 @@ function History(): ReactElement {
           <h2>A origem de tudo</h2>
           <p>
             O
-          
-            <a 
+            <a
               href="https://www.instagram.com/burgercarnequeijo/"
-              target='_blank' 
+              target="_blank"
               rel="noreferrer"
             >
-              {' @burgercarnequeijo '} 
+              {' @burgercarnequeijo '}
             </a>
-
-            foi criado por nós (Raíra e Vinícius), bem no início da pandemia, 
-            com o intuito de gerar uma renda durante esse período de isolamento. 
+            foi criado por nós (Raíra e Vinícius), bem no início da pandemia,
+            com o intuito de gerar uma renda durante esse período de isolamento.
           </p>
-        
-          <p>
-            Juntamos o pouquíssimo dinheiro que tínhamos, estudamos um pouco, 
-            testamos (e comemos 😋) muito. 
-          
-            Então começamos a fazer hambúrguer na cozinha de casa, vendendo para 
-            os vizinhos do condomínio. 
-          
-            Sem estrutura e sem experiência nenhuma, mas com muito apoio e força
-            de vontade. 
-          </p>
-        
 
           <p>
-            Empreender não é nada fácil, mas nós estávamos dispostos a aprender 
-            com os nossos erros e a enfrentar os desafios. 
-          
-            Nós seguimos em frente. 
-            Saímos de casa e mudamos pra uma cozinha na garagem (mas no centro 🤩).
-           
-            Contratamos um motoboy e entramos para o iFood 🛵. 
+            Juntamos o pouquíssimo dinheiro que tínhamos, estudamos um pouco,
+            testamos (e comemos 😋) muito. Então começamos a fazer hambúrguer na
+            cozinha de casa, vendendo para os vizinhos do condomínio. Sem
+            estrutura e sem experiência nenhuma, mas com muito apoio e força de
+            vontade.
           </p>
-        
+
+          <p>
+            Empreender não é nada fácil, mas nós estávamos dispostos a aprender
+            com os nossos erros e a enfrentar os desafios. Nós seguimos em
+            frente. Saímos de casa e mudamos pra uma cozinha na garagem (mas no
+            centro 🤩). Contratamos um motoboy e entramos para o iFood 🛵.
+          </p>
         </article>
       </section>
 
@@ -87,17 +76,15 @@ function History(): ReactElement {
 
         <p>
           Agradecemos de coração a todos que nos apoiaram nesse inicio doido.
-
           Todas as críticas e sujestões de vocês nos guiaram e permitiram que
-          evoluissemos o nosso produto. E embora hoje já tenhamos um conhecimento
-          maior sobre o negócio, continuaremos sempre tentando melhorar. A nossa
-          meta sempre será oferecer lanches de qualidade.
-
+          evoluissemos o nosso produto. E embora hoje já tenhamos um
+          conhecimento maior sobre o negócio, continuaremos sempre tentando
+          melhorar. A nossa meta sempre será oferecer lanches de qualidade.
         </p>
 
         <p>
-          Muito obrigado também às nossas famílias, por acreditarem, 
-          apoiarem e ajudarem sempre!
+          Muito obrigado também às nossas famílias, por acreditarem, apoiarem e
+          ajudarem sempre!
         </p>
       </article>
     </main>
